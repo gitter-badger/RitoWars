@@ -47,9 +47,14 @@
     <Compile Include="Logic\Game\Champions\Champs\Aatrox.cs" />
     <Compile Include="Logic\Game\Champions\Helpers\CastingResource.cs" />
     <Compile Include="Logic\Game\Champions\Helpers\SecondaryBar.cs" />
+    <Compile Include="Logic\Game\Items\BaseItem.cs" />
+    <Compile Include="Logic\Game\Items\Helpers\UniquePassive.cs" />
+    <Compile Include="Logic\Game\Items\GlobalData\BootsOfSpeed.cs" />
+    <Compile Include="Logic\Game\Maps\MapTypes.cs" />
     <Compile Include="Logic\Game\Players\Player.cs" />
     <Compile Include="Logic\Game\Players\PlayerChamp.cs" />
     <Compile Include="Logic\GlobalData.cs" />
+    <Compile Include="Logic\Server\GameInitializer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,8 +62,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Logic\Game\Items\" />
-    <Folder Include="Logic\Game\Maps\" />
+    <Folder Include="Exceptions\" />
     <Folder Include="Logic\Game\Towers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

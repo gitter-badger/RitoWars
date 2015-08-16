@@ -2,7 +2,7 @@
 
 namespace RitoWars.Logic.Game.Champions.Champs
 {
-    public class Aatrox : BaseChamp
+    public abstract class Aatrox : BaseChamp
     {
         #region ChampData
         /// <summary>
