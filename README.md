@@ -1,4 +1,6 @@
 # RitoWars
+
+[![Join the chat at https://gitter.im/eddy5641/RitoWars](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/eddy5641/RitoWars?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Riot gameclient server based on intwars
 
 Just started this project. Nothing works yet so please wait
